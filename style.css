@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 400;
+  background-color: hsl(221, 100%, 96%);
+}
+
+div,
+h4,
+p,
+span,
+button,
+img {
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.firstnum {
+  color: hsl(0, 0%, 100%);
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.secondnum {
+  color: hsl(241, 100%, 89%);
+  font-size: 16px;
+}
+
+.great {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.score-text {
+  color: hsl(241, 100%, 89%);
+  font-size: 16px;
+}
+
+.firstcol {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  min-height: 407px;
+  width: 100%;
+  max-width: 344px;
+  vertical-align: top;
+  padding: 40px;
+  display: inline-block;
+  position: relative;
+  right: -16px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+  margin-bottom: 24px;
+}
+
+.secondcol {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  min-height: 407px;
+  border-radius: 0 24px 24px 0;
+  width: 100%;
+  max-width: 288px;
+  vertical-align: top;
+  padding: 40px 40px 40px 56px;
+  display: inline-block;
+}
+
+.result-summary {
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 110px;
+  margin-bottom: 24px;
+}
+
+.first-res {
+  background-color: hsl(0, 100%, 95%);
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Reaction {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(0, 100%, 67%);
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.second-res {
+  background-color: hsl(39, 100%, 95%);
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Memory {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(39, 100%, 56%);
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.third-res {
+  background-color: hsl(166, 100%, 95%);
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Verbal {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(166, 100%, 37%);
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.fourth-res {
+  background-color: hsl(234, 85%, 95%);
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Visual {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(234, 85%, 45%);
+  margin-right: 25px;
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.label3 {
+  display: inline-block;
+  float: right;
+}
+
+.label2 {
+  font-weight: 400;
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+img {
+  float: left;
+}
+
+.result-button {
+  color: hsl(0, 0%, 100%);
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 128px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 16px 72px;
+  font-weight: 700;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.result-button:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+
+.container {
+  background: radial-gradient(
+    circle at top,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 81%, 54%)
+  );
+  width: 65%;
+  height: auto;
+  margin: auto;
+  padding: 40px;
+  border-radius: 50%;
+  box-shadow: inset 0 -8 30px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  text-align: center;
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+@media (max-width: 650px) {
+  .firstcol {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    right: 0;
+    bottom: -16px;
+    width: 100%;
+    max-width: 344px;
+  }
+
+  .secondcol {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    width: 100%;
+    max-width: 344px;
+  }
+
+  .box {
+    margin: auto;
+  }
+}
